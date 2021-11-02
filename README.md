@@ -1,2 +1,2 @@
 # wasm-linker
-link wasm file in JavaScript runtime.
+Link wasm file in JavaScript runtime.
