@@ -1,0 +1,13 @@
+---
+parser: "@typescript-eslint/parser"
+env:
+    browser: true
+    jasmine: true
+extends:
+    - "@ecomfe/eslint-config"
+    - "@ecomfe/eslint-config/typescript"
+parserOptions:
+    ecmaVersion: 2019
+    sourceType: module
+    ecmaFeatures:
+        modules: true

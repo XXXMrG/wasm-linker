@@ -1,0 +1,23 @@
+{
+    "name": "wasm-linker",
+    "version": "0.0.1",
+    "description": "Link wasm file in JavaScript runtime.",
+    "main": "index.js",
+    "repository": "git@github.com:XXXMrG/wasm-linker.git",
+    "author": "XXXMrG <mrgitservice@outlook.com>",
+    "license": "Apache-2.0",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint 'src/**/*.ts' --ignore-path .eslintignore",
+        "build": "tsc --noEmit && node ./scripts/build.js"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.16.0",
+        "@babel/eslint-plugin": "^7.14.5",
+        "@ecomfe/eslint-config": "^7.3.0",
+        "@typescript-eslint/eslint-plugin": "^5.3.0",
+        "@typescript-eslint/parser": "^5.3.0",
+        "esbuild": "^0.13.12",
+        "eslint": "^8.2.0",
+        "typescript": "^4.4.4"
+    }
+}
